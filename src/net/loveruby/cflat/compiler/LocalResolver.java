@@ -34,6 +34,7 @@ public class LocalResolver extends Visitor {
         scopeStack.add(toplevel);
 
         // #@@range/declareToplevel{
+        //导致外部和全局的变量
         for (Entity decl : ast.declarations()) {
             toplevel.declareEntity(decl);
         }
@@ -42,10 +43,17 @@ public class LocalResolver extends Visitor {
         }
         // #@@}
         // #@@range/resolveRefs{
+        //DeRefer全局变量
         resolveGvarInitializers(ast.definedVariables());
+
+        //DeRefer常量
         resolveConstantValues(ast.constants());
+
+        //DeRefer函数
         resolveFunctions(ast.definedFunctions());
+
         // #@@}
+        //检查
         toplevel.checkReferences(errorHandler);
         if (errorHandler.errorOccured()) {
             throw new SemanticException("compile failed.");

@@ -9,6 +9,11 @@ import net.loveruby.cflat.exception.*;
 
 import java.util.List;
 
+/**
+ * 函数定义
+ * 是否私有， 返回类型，名称，参数列表，函数体
+ * 中间代码，作用域
+ * */
 public class DefinedFunction extends Function {
     protected Params params;
     protected BlockNode body;

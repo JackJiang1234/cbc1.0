@@ -7,6 +7,9 @@ import net.loveruby.cflat.ast.Location;
 import java.util.List;
 import java.util.ArrayList;
 
+/**
+ * 参数列表
+ * */
 public class Params extends ParamSlots<Parameter>
         implements net.loveruby.cflat.ast.Dumpable {
     public Params(Location loc, List<Parameter> paramDescs) {

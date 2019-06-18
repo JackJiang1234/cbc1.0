@@ -3,6 +3,9 @@ package net.loveruby.cflat.entity;
 import net.loveruby.cflat.ast.TypeNode;
 import net.loveruby.cflat.ast.ExprNode;
 
+/**
+ * 表示常量定义
+ * */
 public class Constant extends Entity {
     private TypeNode type;
     private String name;

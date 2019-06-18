@@ -4,6 +4,9 @@ import net.loveruby.cflat.ast.TypeNode;
 
 import java.util.List;
 
+/**
+ * 表示extern声明的函数
+ * */
 public class UndefinedFunction extends Function {
     protected Params params;
 

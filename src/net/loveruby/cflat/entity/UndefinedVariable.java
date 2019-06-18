@@ -2,6 +2,9 @@ package net.loveruby.cflat.entity;
 
 import net.loveruby.cflat.ast.TypeNode;
 
+/**
+ * 表示extern 声明的变量
+ * */
 public class UndefinedVariable extends Variable {
     public UndefinedVariable(TypeNode t, String name) {
         super(false, t, name);

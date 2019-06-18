@@ -9,6 +9,10 @@ import net.loveruby.cflat.asm.Operand;
 import net.loveruby.cflat.asm.MemoryReference;
 import net.loveruby.cflat.asm.ImmediateValue;
 
+/**
+ * 所有实体类基类
+ * 名字，类型，值, 引用计数, 是否常量，是否初始化
+ * */
 abstract public class Entity
         implements net.loveruby.cflat.ast.Dumpable {
     protected String name;

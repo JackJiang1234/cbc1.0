@@ -7,6 +7,10 @@ import net.loveruby.cflat.ir.Expr;
 import net.loveruby.cflat.asm.Symbol;
 import net.loveruby.cflat.asm.NamedSymbol;
 
+/**
+ * 变量定义
+ * 生成临时变量
+ * */
 public class DefinedVariable extends Variable {
     protected ExprNode initializer;
     protected Expr ir;

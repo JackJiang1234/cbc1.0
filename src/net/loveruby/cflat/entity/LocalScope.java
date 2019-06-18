@@ -6,6 +6,9 @@ import net.loveruby.cflat.exception.*;
 
 import java.util.*;
 
+/**
+ * 局部作用域, 只定义变量
+ * */
 public class LocalScope extends Scope {
     protected Scope parent;
     protected Map<String, DefinedVariable> variables;
@@ -98,7 +101,7 @@ public class LocalScope extends Scope {
      * Returns all static local variables defined in this scope.
      */
     public List<DefinedVariable> staticLocalVariables() {
-        List<DefinedVariable> result = new ArrayList<DefinedVariable>();
+        List<DefinedVariable> result = new ArrayList<>();
         for (LocalScope s : allLocalScopes()) {
             for (DefinedVariable var : s.variables.values()) {
                 if (var.isPrivate()) {
