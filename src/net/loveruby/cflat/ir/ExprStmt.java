@@ -2,6 +2,9 @@ package net.loveruby.cflat.ir;
 
 import net.loveruby.cflat.ast.Location;
 
+/**
+ * 表达式语句
+ * */
 public class ExprStmt extends Stmt {
     protected Expr expr;
 

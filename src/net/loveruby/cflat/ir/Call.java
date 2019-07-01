@@ -6,6 +6,9 @@ import net.loveruby.cflat.asm.Type;
 
 import java.util.List;
 
+/**
+ * 表示函数调用表达式
+ * */
 public class Call extends Expr {
     private Expr expr;
     private List<Expr> args;

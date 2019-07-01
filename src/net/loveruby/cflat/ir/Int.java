@@ -2,6 +2,9 @@ package net.loveruby.cflat.ir;
 
 import net.loveruby.cflat.asm.*;
 
+/**
+ * int 字面量
+ * */
 public class Int extends Expr {
     protected long value;
 

@@ -2,6 +2,9 @@ package net.loveruby.cflat.ir;
 
 import net.loveruby.cflat.asm.Type;
 
+/**
+ * 表示取某一个地址值表达式
+ * */
 public class Mem extends Expr {
     protected Expr expr;
 

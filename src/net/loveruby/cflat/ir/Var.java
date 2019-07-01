@@ -5,6 +5,9 @@ import net.loveruby.cflat.asm.Type;
 import net.loveruby.cflat.asm.Operand;
 import net.loveruby.cflat.asm.MemoryReference;
 
+/**
+ * 表示一个变量
+ * */
 public class Var extends Expr {
     protected Entity entity;
 

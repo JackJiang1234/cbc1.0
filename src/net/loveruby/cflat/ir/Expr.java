@@ -6,6 +6,9 @@ import net.loveruby.cflat.asm.ImmediateValue;
 import net.loveruby.cflat.asm.MemoryReference;
 import net.loveruby.cflat.entity.Entity;
 
+/**
+ * 表达式基类
+ * */
 abstract public class Expr implements Dumpable {
     final Type type;
 

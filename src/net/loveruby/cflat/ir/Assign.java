@@ -2,6 +2,9 @@ package net.loveruby.cflat.ir;
 
 import net.loveruby.cflat.ast.Location;
 
+/**
+ * 表示赋值语句
+ * */
 public class Assign extends Stmt {
     protected Expr lhs, rhs;
 

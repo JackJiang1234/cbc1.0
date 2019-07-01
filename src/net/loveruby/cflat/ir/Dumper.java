@@ -7,6 +7,9 @@ import net.loveruby.cflat.asm.*;
 import java.util.List;
 import java.io.PrintStream;
 
+/**
+ * dumper实现
+ * */
 public class Dumper {
     PrintStream stream;
     private int numIndent;

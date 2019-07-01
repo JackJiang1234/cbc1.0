@@ -2,6 +2,9 @@ package net.loveruby.cflat.ir;
 
 import net.loveruby.cflat.asm.Type;
 
+/**
+ * 表示二元运算表达式
+ * */
 public class Bin extends Expr {
     protected Op op;
     protected Expr left, right;

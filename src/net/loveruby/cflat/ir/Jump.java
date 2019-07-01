@@ -3,6 +3,9 @@ package net.loveruby.cflat.ir;
 import net.loveruby.cflat.ast.Location;
 import net.loveruby.cflat.asm.Label;
 
+/**
+ * 跳转
+ * */
 public class Jump extends Stmt {
     protected Label label;
 

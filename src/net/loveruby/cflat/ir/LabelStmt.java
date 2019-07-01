@@ -3,6 +3,9 @@ package net.loveruby.cflat.ir;
 import net.loveruby.cflat.ast.Location;
 import net.loveruby.cflat.asm.Label;
 
+/**
+ * 标签语句
+ * */
 public class LabelStmt extends Stmt {
     protected Label label;
 

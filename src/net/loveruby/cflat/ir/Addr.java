@@ -5,6 +5,9 @@ import net.loveruby.cflat.asm.Operand;
 import net.loveruby.cflat.asm.MemoryReference;
 import net.loveruby.cflat.entity.Entity;
 
+/**
+ * 表示实体的地址
+ * */
 public class Addr extends Expr {
     Entity entity;
 
