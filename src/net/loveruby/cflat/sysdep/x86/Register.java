@@ -3,6 +3,9 @@ package net.loveruby.cflat.sysdep.x86;
 import net.loveruby.cflat.asm.Type;
 import net.loveruby.cflat.asm.SymbolTable;
 
+/**
+ *  x86寄存器实现
+ * */
 class Register extends net.loveruby.cflat.asm.Register {
     RegisterClass _class;
     Type type;

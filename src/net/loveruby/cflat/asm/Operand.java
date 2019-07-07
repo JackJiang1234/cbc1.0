@@ -1,7 +1,7 @@
 package net.loveruby.cflat.asm;
 
 /**
- * 表示操作数
+ * 表示指令操作对象
  * */
 abstract public class Operand implements OperandPattern {
     abstract public String toSource(SymbolTable table);

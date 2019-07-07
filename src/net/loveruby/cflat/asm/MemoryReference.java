@@ -1,5 +1,8 @@
 package net.loveruby.cflat.asm;
 
+/**
+ * 表示内存引用对象
+ * */
 abstract public class MemoryReference
         extends Operand implements Comparable<MemoryReference> {
     public boolean isMemoryReference() {

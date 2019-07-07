@@ -2,6 +2,9 @@ package net.loveruby.cflat.asm;
 
 import net.loveruby.cflat.utils.TextUtils;
 
+/**
+ * 后缀符号
+ * */
 public class SuffixedSymbol implements Symbol {
     protected Symbol base;
     protected String suffix;

@@ -1,6 +1,11 @@
 package net.loveruby.cflat.asm;
 
+/**
+ * 表示寄存器
+ * */
 abstract public class Register extends Operand {
+
+    @Override
     public boolean isRegister() {
         return true;
     }

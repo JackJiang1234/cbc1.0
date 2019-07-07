@@ -1,5 +1,8 @@
 package net.loveruby.cflat.asm;
 
+/**
+ * 未命名符号
+ * */
 public class UnnamedSymbol extends BaseSymbol {
     public UnnamedSymbol() {
         super();

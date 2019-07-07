@@ -2,6 +2,9 @@ package net.loveruby.cflat.asm;
 
 import net.loveruby.cflat.utils.TextUtils;
 
+/**
+ * 表示汇编指令
+ * */
 public class Instruction extends Assembly {
     protected String mnemonic;
     protected String suffix;

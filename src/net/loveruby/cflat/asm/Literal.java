@@ -1,5 +1,8 @@
 package net.loveruby.cflat.asm;
 
+/**
+ * 表示字面量
+ * */
 public interface Literal extends Comparable<Literal> {
     public String toSource();
 

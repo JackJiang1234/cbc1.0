@@ -1,5 +1,8 @@
 package net.loveruby.cflat.asm;
 
+/**
+ * 直接内存引用
+ * */
 public class DirectMemoryReference extends MemoryReference {
     protected Literal value;
 

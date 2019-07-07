@@ -7,6 +7,9 @@ import java.util.List;
 import java.util.ArrayList;
 import java.io.PrintStream;
 
+/**
+ * 汇编代码管理
+ * */
 public class AssemblyCode implements net.loveruby.cflat.sysdep.AssemblyCode {
     final Type naturalType;
     final long stackWordSize;

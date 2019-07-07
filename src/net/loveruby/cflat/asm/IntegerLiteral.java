@@ -1,5 +1,8 @@
 package net.loveruby.cflat.asm;
 
+/**
+ * 表示整型字面量
+ * */
 public class IntegerLiteral implements Literal {
     protected long value;
 

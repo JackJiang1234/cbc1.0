@@ -1,5 +1,8 @@
 package net.loveruby.cflat.asm;
 
+/**
+ * 表示立即数
+ * */
 public class ImmediateValue extends Operand {
     protected Literal expr;
 

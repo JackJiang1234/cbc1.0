@@ -2,6 +2,9 @@ package net.loveruby.cflat.asm;
 
 import net.loveruby.cflat.utils.TextUtils;
 
+/**
+ * 表示伪操作
+ * */
 public class Directive extends Assembly {
     protected String content;
 

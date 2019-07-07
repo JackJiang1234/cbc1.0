@@ -1,5 +1,8 @@
 package net.loveruby.cflat.asm;
 
+/**
+ * 表示间接内存引用
+ * */
 public class IndirectMemoryReference extends MemoryReference {
     Literal offset;
     Register base;

@@ -23,7 +23,7 @@ abstract public class Assembly {
     }
 
     /**
-     * 汇编伪指令
+     * 汇编伪操作
      * */
     public boolean isDirective() {
         return false;

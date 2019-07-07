@@ -1,5 +1,8 @@
 package net.loveruby.cflat.asm;
 
+/**
+ * 表示绝对地址
+ * */
 public class AbsoluteAddress extends Operand {
     protected Register register;
 

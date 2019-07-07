@@ -1,5 +1,8 @@
 package net.loveruby.cflat.asm;
 
+/**
+ * 表示标签
+ * */
 public class Label extends Assembly {
     protected Symbol symbol;
 

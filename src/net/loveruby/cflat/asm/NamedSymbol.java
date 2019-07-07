@@ -2,6 +2,9 @@ package net.loveruby.cflat.asm;
 
 import net.loveruby.cflat.utils.TextUtils;
 
+/**
+ * 表示命名符号
+ * */
 public class NamedSymbol extends BaseSymbol {
     protected String name;
 
