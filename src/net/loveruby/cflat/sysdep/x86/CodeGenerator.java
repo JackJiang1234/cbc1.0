@@ -11,6 +11,9 @@ import net.loveruby.cflat.utils.ErrorHandler;
 
 import java.util.*;
 
+/**
+ * x86平台汇编代码生成
+ * */
 public class CodeGenerator implements net.loveruby.cflat.sysdep.CodeGenerator,
         IRVisitor<Void, Void>, ELFConstants {
     // #@@range/ctor{
